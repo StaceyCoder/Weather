@@ -1,0 +1,66 @@
+/* In School */
+
+body {
+	background-color: #f2f4f7;
+	background: linear-gradient(to bottom right, #76D7C4, #3498DB);
+	font-family: Arial, 'sans serif';
+}
+
+/* Weather Map */
+img {
+	max-width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pic {
+	padding: 0 0 25px 0;
+}
+
+/* Infomation */
+h1, p, .info {
+	text-align: center;
+}
+
+.info {
+	margin: auto;
+	padding: auto;
+	border: solid 2px blue;
+	width: 650px;
+}
+
+p:nth-child(1) {
+	margin: auto;
+	padding: auto;
+	width: 500px;
+	font-weight: 800;
+	background-color: rgba(0, 0, 225, .2);
+}
+
+span {
+	color: blue;
+}
+
+button {
+	margin: 4px 2px;
+	background-color: blue;
+	border: 2px solid white;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: white;
+	border: 2px solid skyblue;
+	color: skyblue;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

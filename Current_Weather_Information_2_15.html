@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX and JSON Practice</title>
+    <link rel="stylesheet" type="text/css" href="ajax1.css">
+</head>
+<body>
+<!-- input any city (3rd Exercise)-->
+<div class="container">
+<div class="title">
+<h1><u> Current Weather Information </u></h1>
+</div>
+<div class="pic">
+<img src="https://dsx.weather.com/util/image/map/acttemp_1280x720.jpg?v=ap&w=1280&h=720&api=7db9fe61-7414-47b5-9871-e17d87b8b6a0">
+</div>
+<div class="info">
+<p>US City: <input type="text" name="city" id="city2"></p><br>
+<p>Temperature (F): <br><span id="temp2"></span></p><br>
+<p>Humidity (%): <br><span id="hum"></span></p><br>
+<p>Wind Speed (mph): <br><span id="mph"></span></p><br>
+<p>Description: <br><span id="des"></span></p><br>
+<button id="btn">Get Info</button>
+</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="ajax1.js"></script>
+</body>
+
+</html>
